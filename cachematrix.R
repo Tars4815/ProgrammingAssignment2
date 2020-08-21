@@ -1,8 +1,8 @@
-## Computation of makeCacheMatrix and cacheSolve functions for the R Programming Assignmente of Week 3
-## The objective is to obtain the inverse of a given matrix
+## Computation of makeCacheMatrix and cacheSolve functions for the R Programming Assignmente of Week 3.
+## The objective is to obtain the inverse of a given matrix.
 
-## makeCacheMatrix following the example of the makeVector function
-## The only difference is the input matrix and the use of "inversa" instead of "mean"
+## makeCacheMatrix following the example of the makeVector function.
+## The only difference is the input matrix and the use of "inversa" instead of "mean".
 
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -18,8 +18,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Function that finally calculates the inverse of the previously defined matrix obtained with "makeCacheMatrix"
-## Computed following the given example of "cachemean"
+## Function that finally calculates the inverse of the previously defined matrix obtained with "makeCacheMatrix".
+## Computed following the given example of "cachemean".
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
